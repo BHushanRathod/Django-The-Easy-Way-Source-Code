@@ -82,7 +82,7 @@ Clone the project:
 
 ```
 git clone git@github.com:SamuliNatri/Django-The-Easy-Way-Source-Code.git
-cd DjangoTheEasyWay-Source-Code
+cd Django-The-Easy-Way-Source-Code
 ```
 
 Install dependencies:
