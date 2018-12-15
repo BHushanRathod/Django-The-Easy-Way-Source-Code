@@ -1,4 +1,4 @@
-"[Django - The Easy Way](https://samuli.to/Django-The-Easy-Way)" book is a practical, step-by-step guide on how to build Django websites. This repository is intended to serve as a companion to the written text.
+"[Django - The Easy Way (2nd Edition)](https://samuli.to/Django-The-Easy-Way)" book is a practical, step-by-step guide on how to build Django websites. This repository is intended to serve as a companion to the written text.
 
 [Django](https://samuli.to/Django-Web-Framework) is a [Python](https://samuli.to/Python) based open source **web development framework** that has been around since 2005. It enables you to create complex *database-driven* websites while keeping things [decoupled](https://samuli.to/Coupling) and [dry](https://samuli.to/Dry). The *Python Package Index* ([PyPI](https://samuli.to/PyPI)) hosts numerous free [packages](https://samuli.to/Django-Packages) that can be used to extend projects without re-inventing the wheel. Django is used by some well-known sites like [Instagram](https://samuli.to/Instagram), [Bitbucket](https://samuli.to/Bitbucket) and [Disqus](https://samuli.to/Disqus).
 
