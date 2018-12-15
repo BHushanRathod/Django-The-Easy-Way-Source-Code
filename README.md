@@ -81,7 +81,7 @@ Install GIT: <https://samuli.to/Git>
 Clone the project:
 
 ```
-git clone git@github.com:SamuliNatri/DjangoTheEasyWay-Source-Code.git
+git clone git@github.com:SamuliNatri/Django-The-Easy-Way-Source-Code.git
 cd DjangoTheEasyWay-Source-Code
 ```
 
