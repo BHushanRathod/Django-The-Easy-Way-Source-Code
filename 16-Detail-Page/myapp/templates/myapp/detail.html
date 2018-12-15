@@ -1,0 +1,13 @@
+{% extends 'base/base.html' %}
+{% block content %}
+
+<div class="jumbotron">
+    <div class="container">
+        <h1 class="display-3">{{ flower.title }}</h1>
+        <div class="lead">{{ flower.description }}</div>
+    </div>
+</div>
+
+<a href="/">Back</a>
+
+{% endblock %}

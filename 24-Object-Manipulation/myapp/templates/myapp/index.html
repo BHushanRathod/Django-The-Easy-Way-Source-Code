@@ -1,0 +1,17 @@
+{% extends 'base/base.html' %}
+{% block content %}
+
+<div class="card-columns">
+  {% for flower in flowers %}
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">{{ flower.title }}</h5>
+      <p class="card-text">{{ flower.description | truncatechars:100 }}</p>
+      <a href="{% url 'edit' pk=flower.pk %}" class="card-link">Edit</a>
+      <a href="{% url 'delete' pk=flower.pk %}" class="card-link">Delete</a>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+{% endblock %}

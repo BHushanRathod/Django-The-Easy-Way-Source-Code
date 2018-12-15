@@ -1,0 +1,14 @@
+{% load widget_tweaks %}
+
+{% for field in form %}
+<div class="fieldWrapper mb-1">
+  {{ field.errors }}
+  {% if field.field.widget.input_type != 'checkbox' %}
+    <label class="sr-only" for="{{ form_field.auto_id }}">{{ form_field.label }}</label>
+    {{ field|add_class:"form-control" }}
+  {% else %}
+    {{ field.label_tag }}
+    {{ field }}
+  {% endif %}
+</div>
+{% endfor %}

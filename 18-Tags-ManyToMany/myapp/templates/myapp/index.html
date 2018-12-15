@@ -1,0 +1,25 @@
+{% extends 'base/base.html' %}
+{% block content %}
+
+<div class="card-columns">
+  {% for flower in flowers %}
+  <div class="card">
+    <div class="card-body">
+      
+      <h5 class="card-title">{{ flower.title }}</h5>
+      <p class="card-text">{{ flower.description | truncatechars:100 }}</p>
+      <a href="/admin/myapp/flower/{{ flower.id }}/change/" class="card-link">Edit</a>
+      <a href="/admin/myapp/flower/{{ flower.id }}/delete/" class="card-link">Delete</a>
+      
+      <hr>
+      
+      {% for tag in flower.tags.all %}
+      <a href="#" class="card-link">{{ tag }}</a>
+      {% endfor %}
+      
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+{% endblock %}
